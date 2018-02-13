@@ -307,7 +307,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         }
 
         public void sendMessage() {
-            Intent intent = new Intent(LoginActivity.this, DisplayTransactionsActivity.class);
+            Intent intent = new Intent(LoginActivity.this, SwipeTransactionActivity.class);
             intent.putExtra(EXTRA_MESSAGE, "hello");
             startActivity(intent);
         }
