@@ -27,9 +27,9 @@ public class SwipeTransactionActivity extends AppCompatActivity {
         setContentView(R.layout.activity_swipe_transaction);
 
         transactionsArrayList = new ArrayList<Transactions>();
-        data1 = new Transactions("Fnac", 70, "10/02/2018");
-        data2 = new Transactions("Darty", 30, "11/02/2018");
-        data3 = new Transactions("McDO", 10, "12/02/2018");
+        data1 = new Transactions("Fnac", "70€", "10/02/2018");
+        data2 = new Transactions("Darty", "30€", "11/02/2018");
+        data3 = new Transactions("McDO", "10€", "12/02/2018");
 
         transactionsArrayList.add(data1);
         transactionsArrayList.add(data2);

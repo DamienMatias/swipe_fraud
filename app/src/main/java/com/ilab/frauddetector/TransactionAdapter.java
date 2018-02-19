@@ -33,7 +33,7 @@ public class TransactionAdapter extends ArrayAdapter<Transactions> {
         // Populate the data into the template view using the data object
         transaction_label.setText(transaction.getLabel());
         transaction_date.setText(transaction.getDate());
-        transaction_amount.setText(transaction.getAmount().toString());
+        transaction_amount.setText(transaction.getAmount());
         // Return the completed view to render on screen
         return convertView;
     }

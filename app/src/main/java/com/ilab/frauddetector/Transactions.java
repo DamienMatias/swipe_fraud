@@ -24,7 +24,7 @@ public class Transactions {
 
 //    @SerializedName("age")
 //    @Expose
-    private Integer amount;
+    private String amount;
 
     private String date;
 
@@ -45,15 +45,15 @@ public class Transactions {
         this.label = label;
     }
 
-    public Integer getAmount() {
+    public String getAmount() {
         return amount;
     }
 
-    public void setAmount(Integer amount) {
+    public void setAmount(String amount) {
         this.amount = amount;
     }
 
-    public Transactions(String label, Integer amount, String date) {
+    public Transactions(String label, String amount, String date) {
         this.label = label;
         this.amount = amount;
         this.date = date;
